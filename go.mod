@@ -126,12 +126,12 @@ require (
 )
 
 replace (
-    // branch: v0.22.0-osmo-v7, current tag: v0.22.0-osmo-v7.2.0
+	// branch: v0.22.0-osmo-v7, current tag: v0.22.0-osmo-v7.2.0
 	github.com/CosmWasm/wasmd => github.com/osmosis-labs/wasmd v0.22.0-osmo-v7.2
-	// Our cosmos-sdk branch is:  https://github.com/osmosis-labs/cosmos-sdk v0.45.0x-osmo-v7
-	github.com/cosmos/cosmos-sdk => github.com/osmosis-labs/cosmos-sdk v0.45.1-0.20220221115656-75545ea8cb2d
+	// Our cosmos-sdk branch is:  https://github.com/osmosis-labs/cosmos-sdk branch: roman/concurrency-iavl, tag: v0.45.0x-osmo-v7.rc1
+	github.com/cosmos/cosmos-sdk => github.com/osmosis-labs/cosmos-sdk v0.45.1-0.20220228204022-b9ecf759a835
 
-	github.com/cosmos/iavl => github.com/osmosis-labs/iavl v0.17.3-osmo-v3
+	github.com/cosmos/iavl => github.com/osmosis-labs/iavl v0.17.3-osmo-v4.rc1
 	// Use osmosis fork of ibc-go
 	github.com/cosmos/ibc-go/v2 => github.com/osmosis-labs/ibc-go/v2 v2.0.2-osmo
 	// use cosmos-compatible protobufs
